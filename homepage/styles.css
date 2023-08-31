@@ -1,0 +1,98 @@
+body {
+    background-color: #ffffff;
+    color: #212529;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    margin: 0;
+    text-align: left;
+}
+
+.navtext{
+    font-family: Merriweather, serif;
+    font-size: 30px;
+}
+
+nav{
+    list-style-type: none;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #B0E0E6;
+  }
+
+.map {
+    height : 500px;
+    width : 450px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.divtext{
+   font-family: "Open Sans", sans-serif;
+   font-size: 16px;
+}
+
+.div {
+    border-style: hidden;
+    padding : 75px;
+    background-color : #ffffff;
+    transition: background-color 0.3s ease;
+}
+.div1 {
+  border-style: hidden;
+  padding : 75px;
+  background-color : #E5E4E2;
+  transition: background-color 0.3s ease;
+}
+
+.divheading {
+  font-family: Merriweather, serif;
+  font-size: 18px;
+}
+
+.park1 {
+  float : right;
+  height : 200px;
+  width : 250px;
+}
+
+.div:hover {
+  background-color: skyblue;
+}
+
+.div1:hover{
+  background-color : skyblue;
+}
+
+.post-ratings-container {
+	display: flex;
+	justify-content: end;
+	padding: 12px 0;
+}
+
+.post-rating {
+	display: flex;
+	align-items: center;
+	cursor: default;
+}
+
+.post-rating:not(:last-child) {
+	margin-right: 12px;
+}
+
+.post-rating-selected > .post-rating-button,
+.post-rating-selected > .post-rating-count {
+	color: #009578;
+}
+
+.post-rating-button {
+	margin-right: 6px;
+	cursor: pointer;
+	color: #555555;
+}
+
+.post-rating:not(.post-rating-selected) > .post-rating-button:hover {
+	color: #000000;
+}

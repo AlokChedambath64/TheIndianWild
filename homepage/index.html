@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+        <link href="styles.css" rel="stylesheet">
+        <title>India</title>
+    </head>
+    <body>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary navtext" >
+        <div class="container-fluid" >
+          <a class="navbar-brand"href="#" ;>INDIA</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse navtext" id="navbarNav">
+            <ul class="navbar-nav" height = 200px>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="north.html">North</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="south.html">South</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="west.html">West</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="east.html">East</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="central.html">Central</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <h4 align = "center" font-family = "serif">Interactable Map</h4>
+      <img src="india.png" alt ="map" class = "map" usemap="#image-map">
+
+      <map name="image-map">
+          <area target="_blank" alt="South" title="South" href="" coords="97,317,103,312,103,299,97,290,107,282,116,276,122,280,132,285,140,280,146,277,153,277,160,280,167,279,174,278,179,280,185,281,189,283,194,284,198,293,203,298,209,302,212,308,217,310,222,310,228,307,235,304,241,299,253,290,261,292,267,292,257,302,250,309,246,313,237,318,236,324,232,329,224,333,214,341,204,345,199,355,204,381,195,405,198,428,189,429,182,440,189,445,176,448,170,452,169,460,158,463,146,453,129,405,119,392,111,358,104,345" shape="poly">
+          <area target="_blank" alt="North" title="North" href="" coords="73,199,86,201,101,206,113,219,119,224,124,211,125,198,139,201,140,214,161,222,173,215,184,221,204,215,203,193,183,188,183,198,183,207,175,206,173,197,175,189,183,178,173,169,164,176,141,184,134,179,135,169,143,165,149,152,154,142,162,129,172,120,179,119,184,129,193,133,201,133,204,115,199,102,186,96,178,80,183,75,193,78,184,54,201,38,194,25,177,25,161,30,144,8,115,8,103,20,112,28,119,36,114,46,115,61,129,69,134,79,130,87,124,102,116,115,103,123,101,132,90,142,85,147,72,151,61,150,57,159,58,166,64,176,67,185" shape="poly">
+          <area target="_blank" alt="West" title="West" href="" coords="39,210,52,205,62,208,75,205,81,204,92,211,100,209,108,221,113,226,121,229,129,216,128,207,136,207,137,219,147,221,157,225,169,225,177,224,182,227,184,237,188,245,189,257,188,269,181,273,174,276,160,277,144,273,135,279,126,277,115,271,103,277,94,282,100,295,100,304,95,308,92,291,94,265,94,246,93,235,83,243,83,250,76,259,61,259,53,252,44,240,57,235,66,230,58,224,42,224,34,216" shape="poly">
+          <area target="_blank" alt="East" title="East" href="" coords="256,288,262,290,270,290,286,281,293,276,302,267,303,260,303,252,303,235,310,224,311,235,310,248,316,247,327,243,327,231,324,216,323,207,313,200,324,190,315,179,327,175,338,176,341,182,341,188,347,189,365,192,375,192,371,198,365,208,359,219,367,223,376,214,380,227,387,238,388,224,388,204,399,205,404,190,410,174,412,160,429,152,438,135,427,122,412,116,394,129,376,142,366,146,350,164,336,165,325,161,323,152,312,148,312,162,306,170,296,174,286,170,276,168,264,163,258,172,258,190,262,195,265,200,268,211,263,226,258,244,257,254,261,260,259,270,255,277" shape="poly">
+          <area target="" alt="Central" title="Central" href="" coords="176,127,186,133,199,140,208,142,218,148,228,151,239,158,248,158,256,160,250,171,252,180,254,192,260,204,260,218,254,226,249,240,250,248,252,259,252,266,249,278,247,284,235,291,223,297,205,292,194,277,182,275,193,262,192,244,189,224,200,221,211,208,207,189,191,186,186,176,179,166,164,166,151,174,142,174,159,140" shape="poly">
+      </map>
+
+      <div class="container" background-color ="#B0E0E6">
+        <footer class="py-3 my-4">
+          <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+            <li class="nav-item"><a href="index.html" class="nav-link px-2 text-muted">Home</a></li>
+            <li class="nav-item"><a href="north.html" class="nav-link px-2 text-muted">North</a></li>
+            <li class="nav-item"><a href="south.html" class="nav-link px-2 text-muted">South</a></li>
+            <li class="nav-item"><a href="west.html" class="nav-link px-2 text-muted">West</a></li>
+            <li class="nav-item"><a href="east.html" class="nav-link px-2 text-muted">East</a></li>
+          </ul>
+          <p class="text-center text-muted">Alok Chedambath©</p>
+        </footer>
+      </div>
+    </body>
+</html>
